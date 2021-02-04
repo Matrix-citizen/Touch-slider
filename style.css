@@ -20,7 +20,7 @@ html, body {
   height: 100vh;
   display: inline-flex;
   overflow: hidden;
-  transform: tanslateX(0);
+  transform: translateX(0);
   transition: transform 0.3s ease-out;
   cursor: grab;
 }
@@ -39,6 +39,7 @@ html, body {
 .slide img {
   max-width: 100%;
   max-height: 60%;
+  transition: transform 0.3s ease-in-out;
 }
 
 .slide h2 {
